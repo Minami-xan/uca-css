@@ -1,5 +1,5 @@
 # UCA CSS Theme Modifier
-Le projet étant de modifier le thème de base du site pour les étudiant de l'uca. ![Login Page](https://i.imgur.com/KP2YFle.gif)
+Le projet étant de modifier le thème de base du site pour les étudiant de l'uca. <img src="https://i.imgur.com/KP2YFle.gif" width="200px">
 
 # Installation
 1) Telecharger Stylus sur [Chrome](https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne) ou [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) `(Un addons personnaliser seras peut etre ajouté)`

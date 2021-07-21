@@ -17,63 +17,25 @@
 }
 
 body {
-    background: url(https://konachan.com/sample/3aafcbb34e63d5c0101930c9a1bb8abe/Konachan.com%20-%20296720%20sample.jpg) no-repeat center fixed;
+    background: url(https://konachan.net/sample/84a87c4781f0efd13b6e7990a489a379/Konachan.com%20-%20326257%20sample.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    font: 14pt "Merriweather Sans",Fantasy;
+    color: #A8A8A8;
 }
 
-:root {
-    --bgd-color: #cbe9f400;
-    --light: #93d5eb00;
-    --medium: #66bbd800;
-    --dark: #4da2bb00;
-    --bush: #fff0;
-    --trunk: #c2653c00;
-    --trunk2: #9d5d5d00;
-    --cloud: #fff0;
-    --sun: transparent;
-    --rabbit: #fff0;
+h2::before {
+    color: #f00;
 }
 
-.season ,
-.season 
-.season {
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  background-color: var(--bgd-color);
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  /* height: 100vh; */
-  /* width: 100vw; */
+.card.card-widget.card-hover.right {
+    visibility: hidden;
 }
 
-.season *, .season *:before, .season *:after {
-    background-color: #00000000;
-    position: absolute;
-    box-shadow: 0 0 0px 0px #9c9c9c00;
-}
-
-.widgetTitle {
-    color: #a52a2a00;
-    text-shadow: 0 0 10px #ff980000;
-    z-index: 1;
-}
-
-a {
-    color: #ffffff00;
-    cursor: pointer;
-}
-
-.card.card-hover, .card-hover.quote {
-    background-color: #00000000;
-    position: absolute;
-    box-shadow: 0 0 0px 0px #9c9c9c00;
+div[style*="margin: 0 10px; padding: 0px 15px;"]{
+    width: 0px;
+    height: 0px;
 }
 
 .card, .quote {
@@ -81,18 +43,44 @@ a {
     padding: 5px 15px 10px;
     margin: 10px;
     background-color: #000000a6;
-    box-shadow: 0 0 5px 0px #00ff214f;
+    box-shadow: 0 0 5px 0px #ff000085;
     border-radius: 23px;
 }
+.profile {
+    content: url(https://i.imgur.com/ndvsmIA.png);
+    width: 34px;
+    height: 34px;
 
-.day {
-    background-color: #00000000;
-    position: absolute;
-    color: #a52a2a00;
+}
+a[href*="https://mail.uca.fr"] {
+    content: url(https://i.imgur.com/GSkGRJY.png);
+    width: 75px;
+    height: 75px;
+
+}
+a[href*="https://mail.uca.fr/?app=Calendar"]{
+    content: url(https://i.imgur.com/gBGSiMj.png);
+    width: 80px;
+    height: 80px;
 }
 
-.rabbit.animated {
-    visibility: hidden;
+.alert-blue, .alert-info-uca {
+    color: #9e0909c4;
+    background-color: #2E3031B0;
+    border-color: #e60606;
+}
+
+.color-grey-light {
+    color: #D70B0B;
+}
+
+#ent_menu_sidebar .group .item .description {
+    color: #d05d5d;
+    font-weight: normal;
+    display: block;
+}
+.link-menu {
+    width: 140px;
 }
 
 div.popup-menu .link-menu {
@@ -110,14 +98,6 @@ div.popup-menu .link-menu:hover, div.popup-menu .link-menu.hover.link-nav {
     background-color: #2b2b2b;
 }
 
-.container {
-    position: relative;
-    width: 0px;
-    height: 0px;
-    background-color: #00000000;
-    color: #a52a2a00;
-}
-
 div.popup-content {
     display: none;
     position: absolute;
@@ -125,5 +105,5 @@ div.popup-content {
     left: 0;
     margin: 0;
     z-index: 1;
-    box-shadow: 0px 1px 10px 0px #2e6830;
+    box-shadow: 0px 1px 10px 0px #ff000085;
 }
